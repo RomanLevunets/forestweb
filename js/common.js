@@ -1,7 +1,13 @@
 $(document).ready(function() {
 
 
+    //slider
 
+    $('.news').slick({
+        dots: true,
+        arrows: false,
+        speed: 1000,
+    });
     //height service-top block====
     function item(){
         $('.services-top').each(function () {
