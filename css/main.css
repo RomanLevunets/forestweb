@@ -85,11 +85,11 @@
     position: relative;
     -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7), 0 1px 1px rgba(255, 255, 255, 0.5) inset;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7), 0 1px 1px rgba(255, 255, 255, 0.5) inset;
-    -webkit-transition: background .2s linear, -webkit-box-shadow .1s linear;
-    transition: background .2s linear, -webkit-box-shadow .1s linear;
-    -o-transition: background .2s linear, box-shadow .1s linear;
-    transition: background .2s linear, box-shadow .1s linear;
-    transition: background .2s linear, box-shadow .1s linear, -webkit-box-shadow .1s linear; }
+    -webkit-transition: background .2s linear, -webkit-box-shadow .2s linear;
+    transition: background .2s linear, -webkit-box-shadow .2s linear;
+    -o-transition: background .2s linear, box-shadow .2s linear;
+    transition: background .2s linear, box-shadow .2s linear;
+    transition: background .2s linear, box-shadow .2s linear, -webkit-box-shadow .2s linear; }
     .container-btn:hover {
       background: #01b689;
       -webkit-box-shadow: none;
@@ -294,7 +294,8 @@
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  overflow: hidden; }
   .Tservices-item {
     width: 100%;
     text-align: left;
@@ -532,7 +533,8 @@
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  overflow: hidden; }
   .services-item {
     width: 25%;
     max-width: 480px;
@@ -665,7 +667,8 @@
   width: 100%;
   max-width: 1580px;
   margin: 0 auto;
-  padding-top: 115px; }
+  padding-top: 115px;
+  overflow: hidden; }
   .works h2 {
     font: 100% "PNBold", sans-serif;
     font-size: 120px;
@@ -774,7 +777,8 @@
   background-position: center;
   -webkit-box-shadow: 0 37px 75px #1a1a2a inset;
           box-shadow: 0 37px 75px #1a1a2a inset;
-  margin-top: -300px; }
+  margin-top: -300px;
+  overflow: hidden; }
 
 .studio {
   text-align: center;
