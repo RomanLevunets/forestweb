@@ -28,7 +28,7 @@ $(document).ready(function() {
     //burger animation
     $('.burger').click(function(){
         $('.burger__line').toggleClass('active-b');
-        $('.menu').toggleClass('open');
+        $('.Lside').toggleClass('active');
         $('.wrapper').toggleClass('bg-active');
 
     });
