@@ -7,15 +7,10 @@ $(document).ready(function() {
         dots: true,
         arrows: false,
         speed: 1000,
+        autoplay: true,
+        autoplaySpeed: 4000,
     });
-    //height service-top block====
-    function item(){
-        $('.services-top').each(function () {
-            var ths = $(this),
-                thsh = ths.find('.services-top-txt').outerHeight();
-            ths.find('.services-top-img').css('min-height', thsh);
-        });
-    }item();
+
 
     //header menu active
     $('.bot-list li').click(function() {
@@ -33,21 +28,14 @@ $(document).ready(function() {
 
     });
 
+        //animation bot services
     var showBotService = (function () {
-        $('.services-bottom-icon').on('click',function () {
+        $('.services-bottom-icon').click(function () {
             $(this).parent().siblings('.services-middle').slideToggle('slow');
             $(this).parents('.services-item').toggleClass('active');
         });
     });
     showBotService();
-
-    var showTopService = (function () {
-        $('.Tservices-item-more').on('click', function () {
-            $(this).parents('.Tservices-item').toggleClass('active');
-            $(this).parent().siblings('.Tservices-item').removeClass('active');
-        });
-    });
-    showTopService();
 
 
 
@@ -92,6 +80,17 @@ $(document).ready(function() {
         $(".works-row li").animated("zoomIn");
         $(".news-item").animated("fadeInUpBig");
 
+    }
+
+    //typed js
+    if($(".runing-string").length>0){
+        $(".runing-string").typed({
+            strings: ["разработка сайтов","что-то еще"],
+            typeSpeed: 125,
+            backSpeed: 70,
+            startDelay: 100,
+            loop:true
+        });
     }
 });
 
