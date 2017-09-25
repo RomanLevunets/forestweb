@@ -86,8 +86,8 @@ $(document).ready(function() {
     if($(".runing-string").length>0){
         $(".runing-string").typed({
             strings: ["разработка сайтов","что-то еще"],
-            typeSpeed: 125,
-            backSpeed: 70,
+            typeSpeed: 70,
+            backSpeed: 100,
             startDelay: 100,
             loop:true
         });

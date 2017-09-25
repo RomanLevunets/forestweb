@@ -838,7 +838,7 @@
 
 .works-bottom {
   position: relative;
-  z-index: 5;
+  z-index: 8;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1471,7 +1471,7 @@ footer {
   .bot-list li:first-child {
     margin-right: 20px; }
   .bot-list li p {
-    font-size: 22px; }
+    font-size: 21px; }
   .services-item {
     width: 100%; }
   .services-txt p {
@@ -1540,7 +1540,7 @@ footer {
   h3 {
     font-size: 26px !important; }
   .works h2 {
-    font-size: 39px; }
+    font-size: 35px; }
   .Tservices-item-title {
     font-size: 30px; }
   .Tservices-item-title::before {
